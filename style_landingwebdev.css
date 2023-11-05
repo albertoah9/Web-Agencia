@@ -6,7 +6,7 @@ body {
 header{
     display: flex;
     align-items: center;
-    background-color: #1f2971;
+    background-color: #1f52eb;
     justify-content: space-between;
 }
 
@@ -43,10 +43,10 @@ header{
 .content1 {
     display: flex;
     align-items: center;
-    background-color: #0800ff;
-    padding: 100px;
-    justify-content: space-evenly;
-    gap: 100px;
+    background-color: #1f52eb;
+    padding: 50px;
+    justify-content: center;
+    gap: 250px;
 }
 
 .img-grande {
@@ -66,6 +66,7 @@ header{
     font-weight: bold;
     color: #f9faf8;
     margin: 0px;
+    text-align: center;
 }
 
 .hero-secondary-text {
@@ -75,9 +76,129 @@ header{
 }
 
 .hero-button {
-    background-color: #0073ff;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     padding: 5px;
     border-radius: 5px;
     border-width: 0px;
+}
+
+.link-hero-button {
+    text-decoration: none;
+}
+
+.random-info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-header {
+    text-align: center;
+}
+
+.info-header-text {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.info-boxes-container {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.info-container {
+    text-align: center;
+    width: 100px;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    outline: 2px solid blue;
+    padding: 15px;
+    border-radius: 10px;
+    width: 70px;
+    height: auto;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 675px;
+}
+
+.quote-text {
+    font-family: light italic, 'Times New Roman', Times, serif;
+    width: 700px;
+    font-size: 24px;
+    margin: 15px 0 5px 0;
+}
+
+.quote-author {
+    font-size: 16px;
+    font-weight: 800px;
+    align-self: flex-end;
+    margin: 0 0 10px 0;
+}
+
+.take-action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.take-action {
+    display: flex;
+    background-color: #3882F6;
+    padding: 12px;
+    margin: 30px;
+    width: 1000px;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    border-radius: 15px;
+    height: 100px;
+}
+
+.take-action-text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.take-action-primary-text {
+    font-size: 24px;
+    font-weight: 900px;
+    margin: 0px;
+}
+
+.take-action-secondary-text {
+    margin: 0;
+}
+
+.take-action-button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
+    border-color: white;
+    height: 22px;
+}
+
+footer {
+    height: 50px;
+    background-color: #1f52eb;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
